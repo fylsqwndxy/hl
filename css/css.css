@@ -1,0 +1,299 @@
+.header{
+	background: url('../images/bg.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	/* background-color: #000; */
+}
+.container-fluid{
+	background: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 600px;
+	margin: 0px;
+	padding: 0px;
+}
+/* .bg{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: -1;
+} */
+.container{
+	padding-right: 0px;
+	/* background-color: #CAFF70; */
+	margin-top: 20px;
+}
+.logo2{
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.icon{
+	margin: 0px;
+	padding-top: 40px;
+	padding-right: 0px;
+}
+.img-circle{
+	width: 25px;
+	height: 25px;
+	background-color: #d7d8d6;
+	text-align: center;
+	line-height: 25px;
+	/* display: block; */
+	float: right;
+	margin: 0px 3px;
+}
+.icon-2{
+	width: 15px;
+	height: 15px;
+}
+.hr{
+	height: 109px;
+	border-bottom: 1px solid #fff;
+}
+.navbar{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar>ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar>ul>li{
+	display: inline;
+	float: left;
+	margin: 15px 15px;
+}
+.navbar>ul>li>a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	/* background-color: #CAFF70; */
+}
+.navbar>ul>li>a:hover{
+	color: #87b672;
+}
+.navbar>.navtu>li{
+	float: right;
+}
+.navbar>.navtu>li>a>img{
+	width: 20px;
+	height: 20px;
+}
+.swiper-container{
+	height: 390px;
+}
+.lb1{
+	padding-top: 70px;
+	padding-left: 50px;
+}
+.NOR{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 25px;
+	color: #87b672;
+}
+.POCK{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	color: #fff;
+}
+.btn{
+	color: #fff;
+	border: 2px solid #fff;
+}
+.btn:hover{
+	color: #fff;
+}
+.lb2>img{
+	width: 300px;
+	height: 300px;
+	padding-top: 30px;
+}
+.previous,.next{
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	z-index: 10;
+	cursor: pointer;
+	background-size: 27px 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	border: 1px solid #fff;
+	text-align: center;
+	padding-top: 7px;
+}
+.previous:hover,
+.next:hover{
+	background: rgba(254, 254, 254);
+}
+.previous>img,
+.next>img{
+	width: 24px;
+	height: 24px;
+}
+.previous{
+	left: 30px;
+	right: auto;
+}
+.next{
+	right: 30px;
+	left: auto;
+}
+.content{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.content1{
+	height: 670px;
+	width: 100%;
+	text-align: center;
+	background: #fff;
+}
+.t1{
+	margin-top: 68px;
+	border-bottom: 1px solid #9b9999;
+}
+.t2{
+	margin-top: 68px;
+}
+.content2{
+	background: #f3f3f3;
+	/* text-align: center; */
+	padding-top: 50px;
+}
+.more1:hover,
+.more2:hover,
+.more3:hover,
+.more4:hover{
+	background: #87b672;
+	color: #fff;
+	z-index: 1;
+}
+.more1{
+	padding:20px 1px 1px 1px;
+	background: #efefef;
+}
+.more2{
+	padding:1px 1px 20px 1px;
+	background: #efefef;
+}
+.more3{
+	padding:20px 1px 1px 1px;
+	background: #efefef;
+}
+.more4{
+	padding:1px 1px 20px 1px;
+	background: #efefef;
+}
+.p1{
+	color: #a3a3a3;
+}
+.p2{
+	color: #87b672;
+} 
+.previous2,.next2{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -50%;
+	z-index: 10;
+	cursor: pointer;
+	background-size: 27px 44px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background: rgba(135, 182, 114, 0.2);
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 7px;
+}
+.previous2:hover,
+.next2:hover{
+	background: rgba(135, 182, 114);
+}
+.previous2>img,
+.next2>img{
+	width: 24px;
+	height: 24px;
+}
+.previous2{
+	float: left;
+	left: 30px;
+	right: auto;
+}
+.next2{
+	float: right;
+	right: 30px;
+	left: auto;
+}
+.news{
+	text-align: center;
+}
+.news1>img,
+.news3>img,
+.news5>img,
+.news7>img{
+	padding: 0px;
+	margin-bottom: 10px;
+}
+.news2,
+.news4,
+.news6,
+.news8{
+	margin-bottom: 10px;
+	padding:50px 20px 0px 20px;
+	text-align: center;
+	display: none;
+	width: 100%;
+	height: 285px;
+	background: #87b672;
+	color: #fff;
+}
+.news2>span,
+.news4>span,
+.news6>span,
+.news8>span{
+	font-size: 15px;
+}
+/* foot */
+.logo3{
+	padding-top: 30px;
+	width: 80%;
+}
+.xtb{
+	text-align: center;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: rgba(254, 254, 254, 0.5);
+	float: right;
+	right: 20px;
+	margin-right: 5px;
+}
+.xtb>img{
+	width: 15px;
+	height: 15px;
+}
+.xtb:hover{
+	background: #fff;
+}
+.xjt{
+	width: 10px;
+}
+.xwz{
+	font-size: 10px;
+	color: #9b9999;
+}
+.zj{
+	color: #9b9999;
+	font-size: 12px;
+	float: right;
+}
